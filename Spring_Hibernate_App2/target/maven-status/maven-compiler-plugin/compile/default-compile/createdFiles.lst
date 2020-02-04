@@ -1,0 +1,6 @@
+com\sam\model\Student.class
+com\sam\dao\StudentDao.class
+com\sam\service\StudentService.class
+com\sam\controller\StudentController.class
+com\sam\service\impl\StudentServiceImpl.class
+com\sam\dao\impl\StudentDaoImpl.class
