@@ -6,11 +6,19 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Student Management System</title>
+<style type="text/css">
+#studList{
+	width:100%;
+}
+input[type="text"], #studForm{
+	width:80%;
+}
+</style>
 </head>
 <body>
 <h1>Students Data</h1>
-	<form:form action="student.do" method="POST" commandName="student">
-		<table>
+	<form:form action="student.do" method="POST" commandName="student" id="studForm">
+		<table id="studForm">
 			<tr>
 				<td>Student ID</td>
 				<td><form:input path="studentId"/></td>
@@ -43,7 +51,7 @@
 		</table>
 	</form:form>
 	<br>
-	<table border="1">
+	<table border="1" id="studList">
 		<th>ID</th>
 		<th>First Name</th>
 		<th>Last Name</th>
